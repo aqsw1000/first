@@ -58,6 +58,7 @@ button {
   border:0.5px solid rgba(0,0,0,0.3);
   z-index:1000;
   line-height:35px;
+  margin-bottom:10px;
 }
 .sub_menu li {
   cursor:pointer;
@@ -90,6 +91,9 @@ button {
 .thumbnail div {
   overflow:hidden;
 }
+.thumbnail strong {
+  font-size:12px;
+}
 .thumbnail p {
   margin:5px 0;
   font-size:10px;
@@ -97,16 +101,16 @@ button {
   white-space:nowrap;
   overflow:hidden;
 }
-.thumbnail p:nth-child(1) {
+.thumbnail p:nth-child(3) {
   color:red;
 }
-.thumbnail p:nth-child(2) {
+.thumbnail p:nth-child(4) {
   color:rgba(0,0,0,0.5);
 }
 .thumbnail img {
   width:120px;
   height:167px;
-  transition:0.5s;
+  transition:0.4s;
 }
 .thumbnail img:hover {
   transform:scale(1.1);
